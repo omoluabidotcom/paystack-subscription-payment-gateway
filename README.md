@@ -17,4 +17,6 @@ replace the secret key with yours.
 
 **NB**: The public key and secret key used here are for test mode
 they should be protected by using environment variables in a 
-production app. The phpdotenv package can be use.
+production app. The phpdotenv package can be use. Also the payment
+confirmation won't work until the repo is tested using a live mode, 
+because webhook which listen for event would not work on localhost.
